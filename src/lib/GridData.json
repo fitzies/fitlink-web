@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "title": "Share",
+      "text": "Showcase your fitness journey with regular updates, inspiring others and keeping yourself accountable and motivated towards achieving your goals.",
+      "icon": "share"
+    },
+    {
+      "title": "Streaks",
+      "text": "Stay committed to your fitness goals by tracking your consecutive gym visits with a streak, motivating you to maintain your streak and stay on track.",
+      "icon": "streaks"
+    },
+    {
+      "title": "Explore",
+      "text": "Explore new inspiration and connect with your gym buddies! Follow your favorite influencers, check out your friends' workout, and stay up to date with the latest fitness trends.",
+      "icon": "explore"
+    },
+    {
+      "title": "Personalize",
+      "text": "Create a unique fitness identity and tailor your fitness journey with customized profiles, goals, and workouts.",
+      "icon": "personalize"
+    },
+    {
+      "title": "Track",
+      "text": "Track your progress like never before with personalized goals and detailed insights into your workouts; inspire and connect with others on their fitness journeys.",
+      "icon": "track"
+    },
+    {
+      "title": "Compete",
+      "text": "Compete with friends and other members of the community to reach fitness goals, earn badges, and climb up the leaderboard for a chance to win rewards.",
+      "icon": "compete"
+    }
+  ]
+}
