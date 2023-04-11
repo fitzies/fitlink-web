@@ -4,12 +4,12 @@ import Grid from "./components/Grid";
 export default function App() {
   return (
     <div className="w-screen flex flex-col justify-center items-center p-8">
-      <div className="flex items-center mt-20">
+      <div className="flex items-center lg:mt-20 mt-14">
         <div className="lg:w-2/3 w-full lg:ml-32 flex flex-col items-center">
-          <h1 className="text-black font-inter font-bold lg:text-7xl text-3xl text-start">
+          <h1 className="text-black font-inter font-bold lg:text-7xl text-5xl text-start">
             Join the new fitness revolution online
           </h1>
-          <p className="text-black font-inter py-4 lg:ml-2 lg:text-lg text-sm">
+          <p className="text-black font-inter py-4 lg:ml-2 lg:text-lg text-md">
             Set your fitness goals, share your progress, and achieve your
             fitness dreams together with other gym enthusiasts.
           </p>
