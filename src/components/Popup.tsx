@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { addRow, addToast } from "../lib/helper";
 import "react-toastify/dist/ReactToastify.css";
+import { motion } from "framer-motion";
 
 export default function Popup(props: { close: Function }) {
   const handleChildClick = (e: any) => {
@@ -25,9 +26,12 @@ export default function Popup(props: { close: Function }) {
       className="w-screen h-screen bg-[rgba(0,0,0,0.7)] fixed inset-0 flex justify-center items-center"
       onClick={() => props.close()}
     >
-      <div
+      <motion.div
         className="lg:w-[40%] w-3/4 bg-white rounded-lg flex flex-col p-6 gap-2"
         onClick={handleChildClick}
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.2 }}
       >
         <h1 className="font-inter font-bold text-2xl mb-2 ml-1">
           Join the Waitlist
@@ -45,7 +49,7 @@ export default function Popup(props: { close: Function }) {
         >
           Join
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

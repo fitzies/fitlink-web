@@ -2,6 +2,7 @@ import { useState } from "react";
 import Button from "./components/Button";
 import Grid from "./components/Grid";
 import Popup from "./components/Popup";
+import { addToast } from "./lib/helper";
 
 export default function App() {
   const [signUpPopup, setSignUpPopup] = useState<boolean>(false);
@@ -24,7 +25,11 @@ export default function App() {
               type="solid"
               onClick={() => setSignUpPopup((e) => !e)}
             />
-            <Button text="Learn more" type="hollow" onClick={print} />
+            <Button
+              text="Learn more"
+              type="hollow"
+              onClick={() => addToast("Coming soon...")}
+            />
           </div>
         </div>
       </div>
